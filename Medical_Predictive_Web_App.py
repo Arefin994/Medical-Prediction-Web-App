@@ -11,9 +11,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Loading Models
-diabetes_model = pickle.load(open(r'C:\Users\Admin\Downloads\ML\Trained Model\trained_diabetes_model.sav', 'rb')) # rb = reading in binary
-heart_disease_model = pickle.load(open(r'C:\Users\Admin\Downloads\ML\Trained Model\trained_heart_disease_model.sav', 'rb')) # rb = reading in binary
-calories_burn_model = pickle.load(open(r'C:\Users\Admin\Downloads\ML\Trained Model\trained_calorie_burn_model.sav', 'rb')) # rb = reading in binary
+diabetes_model = pickle.load(open(r'trained_diabetes_model.sav', 'rb')) # rb = reading in binary
+heart_disease_model = pickle.load(open(r'trained_heart_disease_model.sav', 'rb')) # rb = reading in binary
+calories_burn_model = pickle.load(open(r'trained_calorie_burn_model.sav', 'rb')) # rb = reading in binary
 
 # Sidebar
 with st.sidebar:
